@@ -298,6 +298,16 @@ int main(int argc, char** argv)
 		}
 	}
 
+	//Leeroy Header!
+	fprintf(stderr,":::        :::::::::: :::::::::: :::::::::   ::::::::  :::   ::: \n");
+	fprintf(stderr,":+:        :+:        :+:        :+:    :+: :+:    :+: :+:   :+:\n"); 
+	fprintf(stderr,"+:+        +:+        +:+        +:+    +:+ +:+    +:+  +:+ +:+\n");  
+	fprintf(stderr,"+#+        +#++:++#   +#++:++#   +#++:++#:  +#+    +:+   +#++:\n");   
+	fprintf(stderr,"+#+        +#+        +#+        +#+    +#+ +#+    +#+    +#+\n");    
+	fprintf(stderr,"#+#        #+#        #+#        #+#    #+# #+#    #+#    #+#\n");    
+	fprintf(stderr,"########## ########## ########## ###    ###  ########     ###\n");    
+	fprintf(stderr,"\n");    
+	
 	if (write && read) {
 		fprintf(stderr, "Read and write options are mutually exclusive.\n");
 		usage();

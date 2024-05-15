@@ -888,6 +888,16 @@ int main(int argc, char** argv)
 			return EXIT_FAILURE;
 		}
 	}
+	
+	//Leeroy Header!
+	fprintf(stderr,":::        :::::::::: :::::::::: :::::::::   ::::::::  :::   ::: \n");
+	fprintf(stderr,":+:        :+:        :+:        :+:    :+: :+:    :+: :+:   :+:\n"); 
+	fprintf(stderr,"+:+        +:+        +:+        +:+    +:+ +:+    +:+  +:+ +:+\n");  
+	fprintf(stderr,"+#+        +#++:++#   +#++:++#   +#++:++#:  +#+    +:+   +#++:\n");   
+	fprintf(stderr,"+#+        +#+        +#+        +#+    +#+ +#+    +#+    +#+\n");    
+	fprintf(stderr,"#+#        #+#        #+#        #+#    #+# #+#    #+#    #+#\n");    
+	fprintf(stderr,"########## ########## ########## ###    ###  ########     ###\n");    
+	fprintf(stderr,"\n");    
 
 	if (lna_gain % 8)
 		fprintf(stderr, "warning: lna_gain (-l) must be a multiple of 8\n");

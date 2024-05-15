@@ -105,6 +105,17 @@ int main(void)
 		return EXIT_FAILURE;
 	}
 
+
+	//Leeroy Header!
+	printf(":::        :::::::::: :::::::::: :::::::::   ::::::::  :::   ::: \n");
+	printf(":+:        :+:        :+:        :+:    :+: :+:    :+: :+:   :+:\n"); 
+	printf("+:+        +:+        +:+        +:+    +:+ +:+    +:+  +:+ +:+\n");  
+	printf("+#+        +#++:++#   +#++:++#   +#++:++#:  +#+    +:+   +#++:\n");   
+	printf("+#+        +#+        +#+        +#+    +#+ +#+    +#+    +#+\n");    
+	printf("#+#        #+#        #+#        #+#    #+# #+#    #+#    #+#\n");    
+	printf("########## ########## ########## ###    ###  ########     ###\n");    
+	printf("\n");    
+
 	printf("hackrf_info version: %s\n", TOOL_RELEASE);
 	printf("libhackrf version: %s (%s)\n",
 	       hackrf_library_release(),
